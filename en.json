@@ -1,0 +1,25 @@
+{
+  "greeting": "Hello! 👋 I am your personal energy assistant. How can I help you optimize your electricity consumption today?",
+  "suggestions": [
+    "Why is my bill high?",
+    "How to reduce my consumption?",
+    "Which devices consume the most?"
+  ],
+  "response": {
+    "bill_high": "Your current consumption is {{currentConsumption}}W. The main causes of a high bill are often:\n\n• Air conditioning (uses 60-70% of energy)\n• Devices on standby (up to 15% loss)\n• Inefficient lighting\n• Poorly set refrigerator\n\nI see you have {{activeDevices}} devices currently on.",
+    "reduce_tips": "Here are my personalized tips to reduce your consumption:\n\n💡 **Immediate actions:**\n• Set your air conditioning to 25°C (instead of 18°C)\n• Turn off devices on standby\n• Use LED lighting\n• Defrost your refrigerator regularly\n\n📊 **Potential savings: 30-40% on your bill**",
+    "device_consumption": "Here are your devices consuming the most currently:\n\n{{deviceList}}\n\n**Current total: {{currentConsumption}}W**\n\nThe air conditioner is usually your biggest consumer!",
+    "ac_optimization": "🌡️ **Air conditioning optimization:**\n\n• **Ideal temperature: 25°C** (each degree less = +8% consumption)\n• Close doors and windows\n• Use fans to circulate air\n• Clean filters monthly\n• Schedule time slots\n\n**Possible savings: 40-50% on air conditioning**",
+    "tariff_info": "⚡ **Tariff optimization in Côte d'Ivoire:**\n\nCIE applies a progressive tariff:\n• **0-110 kWh**: ~67 FCFA/kWh\n• **111-300 kWh**: ~79 FCFA/kWh\n• **300+ kWh**: ~87 FCFA/kWh\n\n**Tips:**\n• Use large appliances early morning (6am-8am)\n• Avoid peaks from 6pm-10pm\n• Spread your consumption",
+    "default": "I understand your question about energy! 🔌\n\nI can help you with:\n• Consumption analysis\n• Personalized savings tips\n• Device scheduling\n• Bill optimization\n• Outages and incidents\n\nWhat would you like to know specifically?"
+  },
+  "ui": {
+    "assistant_title": "Energy Assistant",
+    "assistant_subtitle": "Your personal energy advisor",
+    "input_placeholder": "Type your energy question...",
+    "voice_button_label": "Voice input",
+    "send_button_label": "Send",
+    "assistant_typing": "Assistant is typing...",
+    "suggestion_prefix": "Suggestion: "
+  }
+}

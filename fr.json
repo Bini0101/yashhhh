@@ -1,0 +1,25 @@
+{
+  "greeting": "Bonjour ! 👋 Je suis votre assistant énergétique personnel. Comment puis-je vous aider à optimiser votre consommation électrique aujourd'hui ?",
+  "suggestions": [
+    "Pourquoi ma facture est-elle élevée ?",
+    "Comment réduire ma consommation ?",
+    "Quels appareils consomment le plus ?"
+  ],
+  "response": {
+    "bill_high": "Votre consommation actuelle est de {{currentConsumption}}W. Les principales causes d'une facture élevée sont souvent :\n\n• La climatisation (utilise 60-70% de l'énergie)\n• Les appareils en veille (jusqu'à 15% de perte)\n• L'éclairage inefficace\n• Un réfrigérateur mal réglé\n\nJe vois que vous avez {{activeDevices}} appareils allumés actuellement.",
+    "reduce_tips": "Voici mes conseils personnalisés pour réduire votre consommation :\n\n💡 **Actions immédiates :**\n• Réglez votre climatisation à 25°C (au lieu de 18°C)\n• Éteignez les appareils en veille\n• Utilisez l'éclairage LED\n• Dégivrez régulièrement votre réfrigérateur\n\n📊 **Potentiel d'économie : 30-40% sur votre facture**",
+    "device_consumption": "Voici vos appareils qui consomment le plus actuellement :\n\n{{deviceList}}\n\n**Total actuel : {{currentConsumption}}W**\n\nLe climatiseur est généralement votre plus gros consommateur !",
+    "ac_optimization": "🌡️ **Optimisation de la climatisation :**\n\n• **Température idéale : 25°C** (chaque degré en moins = +8% de consommation)\n• Fermez portes et fenêtres\n• Utilisez des ventilateurs pour brasser l'air\n• Nettoyez les filtres mensuellement\n• Programmez des plages horaires\n\n**Économie possible : 40-50% sur la climatisation**",
+    "tariff_info": "⚡ **Optimisation tarifaire en Côte d'Ivoire :**\n\nLa CIE applique un tarif progressif :\n• **0-110 kWh** : ~67 FCFA/kWh\n• **111-300 kWh** : ~79 FCFA/kWh\n• **300+ kWh** : ~87 FCFA/kWh\n\n**Conseils :**\n• Utilisez gros électroménagers tôt le matin (6h-8h)\n• Évitez les pics de 18h-22h\n• Étalez votre consommation",
+    "default": "Je comprends votre question sur l'énergie ! 🔌\n\nJe peux vous aider avec :\n• L'analyse de votre consommation\n• Des conseils d'économie personnalisés\n• La programmation d'appareils\n• L'optimisation de votre facture\n• Les pannes et incidents\n\nQue souhaitez-vous savoir précisément ?"
+  },
+  "ui": {
+    "assistant_title": "Assistant Énergétique",
+    "assistant_subtitle": "Votre conseiller personnel en énergie",
+    "input_placeholder": "Tapez votre question sur l'énergie...",
+    "voice_button_label": "Entrée vocale",
+    "send_button_label": "Envoyer",
+    "assistant_typing": "Assistant écrit...",
+    "suggestion_prefix": "Suggestion : "
+  }
+}
